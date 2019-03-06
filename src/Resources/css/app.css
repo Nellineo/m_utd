@@ -397,7 +397,7 @@ footer .footer_discl {
 .home_meetplayers_wrapper {
     padding-top: 100px;
     padding-bottom: 60px;
-    min-height: 800px;
+    min-height: 700px;
 }
 
 .home_meetplayers .home_card_wrapper {
@@ -418,14 +418,14 @@ footer .footer_discl {
 
 
 .player_card_wrapper {
-    background: #ffffff;
-    border: 1px solid #ececec;
+    background: #1a1a1a;
+    border: 1px solid #1a1a1a;
     width: 300px;
     padding: 10px 10px 20px 10px;
     font-family: 'Righteous';
 }
 .player_card_wrapper .player_card_thmb {
-    border: 1px solid #eeeeee;
+    border-bottom: 3px solid #CC1717;
     width:100%;
     height:250px;
     background-repeat: no-repeat !important;
@@ -437,21 +437,29 @@ footer .footer_discl {
     position: relative;
 }
 .player_card_wrapper .player_card_number {
-    color: #d6ecfe;
+    color: #ffffff;
     font-size: 185px;
     text-align: right;
     line-height: 160px;
+
+}
+
+.player_card_wrapper {
+    border-bottom: 3px solid #CC1717;
+    -moz-box-shadow:    3px 3px 5px 6px #1a1a1a;
+    -webkit-box-shadow: 3px 3px 5px 6px #1a1a1a;
+    box-shadow:         3px 3px 10px 3px #1a1a1a;
 }
 
 .player_card_wrapper .player_card_name {
     position: absolute;
-    bottom: 0px;
+    bottom: 7px;
 }
 
 .player_card_wrapper .player_card_name span { 
     display: block;
     font-size: 25px;
-    color: #0d1831;
+    color: #ffffff;
 }
 
 .home_text_wrapper {
@@ -478,7 +486,7 @@ footer .footer_discl {
     font-size: 150px;
     font-family: 'Righteous', cursive;
     flex-grow: 1;
-    color:#d5ebfd;
+    color:#1a1a1a;
     line-height: 135px;
 }
 .promotion_wrapper .promotion_animation .left span {
@@ -490,8 +498,8 @@ footer .footer_discl {
 }
 
 .promotion_wrapper .promotion_animation .right div{
-    width: 280px;
-    height: 280px;
+    width: 450px;
+    height: 450px;
     background-size: contain !important;
 }
 
@@ -502,7 +510,7 @@ footer .footer_discl {
 .promotion_wrapper .enroll_title {
     font-family: 'Righteous', cursive;
     font-size: 26px;
-    color: #4e4e4e;
+    color: #1a1a1a;
 }
 
 .promotion_wrapper .enroll_discl {

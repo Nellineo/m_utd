@@ -45,3 +45,7 @@ export const reverseArray = (actualArray) => {
     }
     return reversedArray
 }
+
+export const validate = (element) => {
+    let error = []
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HomeBg from '../../../Resources/images/meet1.jpg'
 import { Tag } from '../../ui/misc';
 import Reveal from 'react-reveal/Reveal';
+import Cards from './Cards';
 
 class MeetPlayers extends Component {
 
@@ -13,19 +14,21 @@ class MeetPlayers extends Component {
         return (
             <Reveal
                 fraction={0.7}
-                onReveal={()=> {
+                onReveal={() => {
                     this.setState({
                         show:true
-                    })
+                    })                 
                 }}
             >
                 <div className="home_meetplayers"
-                    style={{background: `url(${HomeBg}) no-repeat`}}
+                    style={{background: `url(${HomeBg})`}}
                 >
                     <div className="container">
                         <div className="home_meetplayers_wrapper">
                             <div className="home_card_wrapper">
-                                card
+                                <Cards 
+                                    show={this.state.show}
+                                />
                             </div>
                             <div className="home_text_wrapper">
                                 <div>
