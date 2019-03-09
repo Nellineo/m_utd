@@ -35,6 +35,9 @@ class Header extends Component {
                     <Link to="/the_matches">
                         <Button color="inherit" size="large">Matches</Button>
                     </Link>
+                    <Link to="/sign_in">
+                        <Button color="inherit" size="large">Log In</Button>
+                    </Link>
                 </Toolbar>
             </AppBar>
         );

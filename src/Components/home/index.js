@@ -11,6 +11,7 @@ const Home = () => {
             <Featured />
             <Matches />
             <MeetPlayers />
+            {/* <LatestFixture /> */}
             <Promotion />
         </div>
     );
